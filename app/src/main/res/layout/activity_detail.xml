@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightblue"
+    tools:context="com.example.dimas.keekicashflow.DetailActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/lightblue"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_detail_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:text="Cupcake Star"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/layout3"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:padding="10dp"
+                android:src="@drawable/dummy"
+                android:id="@+id/project_image"/>
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:padding="10dp"
+                android:src="@drawable/dummy"
+                android:id="@+id/project_image1"/>
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:padding="10dp"
+                android:src="@drawable/dummy"
+                android:id="@+id/project_image2"/>
+            </LinearLayout>
+        </HorizontalScrollView>
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_description"
+                android:paddingTop="10dp"
+                android:paddingStart="20dp"
+                android:paddingEnd="20sp"
+                android:paddingBottom="5dp"
+                android:text="Description (theme) : "
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_description_detail"
+                android:paddingTop="5dp"
+                android:paddingStart="40dp"
+                android:paddingEnd="20sp"
+                android:paddingBottom="10dp"
+                android:text="Put your description over here"
+                android:textSize="15sp"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_flavour"
+                android:paddingTop="10dp"
+                android:paddingStart="20dp"
+                android:paddingEnd="20sp"
+                android:paddingBottom="5dp"
+                android:text="Flavour : "
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:textColor="@color/white"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_flavour_detail"
+                android:paddingTop="5dp"
+                android:paddingStart="40dp"
+                android:paddingEnd="20sp"
+                android:paddingBottom="10dp"
+                android:text="Chocolate Vanilla"
+                android:textSize="15sp"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_size"
+                android:paddingTop="10dp"
+                android:paddingStart="20dp"
+                android:paddingEnd="20sp"
+                android:paddingBottom="10dp"
+                android:text="Size / Quantity : "
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_size_detail"
+                android:paddingTop="5dp"
+                android:paddingStart="40dp"
+                android:paddingEnd="20sp"
+                android:paddingBottom="10dp"
+                android:text="8 Inch"
+                android:textSize="15sp"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_price"
+                android:paddingTop="10dp"
+                android:paddingStart="20dp"
+                android:paddingEnd="20sp"
+                android:paddingBottom="10dp"
+                android:text="Price : "
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_price_detail"
+                android:paddingTop="5dp"
+                android:paddingStart="40dp"
+                android:paddingEnd="20sp"
+                android:paddingBottom="10dp"
+                android:text="S$ 10.00"
+                android:textSize="15sp"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_dateCollection"
+                android:paddingTop="10dp"
+                android:paddingStart="20dp"
+                android:paddingEnd="20sp"
+                android:paddingBottom="10dp"
+                android:text="Date Collection : "
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_dateCollection_detail"
+                android:paddingTop="5dp"
+                android:paddingStart="40dp"
+                android:paddingEnd="20sp"
+                android:paddingBottom="10dp"
+                android:text="31st Jan 2018 - 8:30 PM"
+                android:textSize="15sp"
+                android:textColor="@color/white"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_placeCollection"
+                    android:paddingTop="10dp"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20sp"
+                    android:paddingBottom="10dp"
+                    android:text="Place Collection : "
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:textColor="@color/white"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_placeCollection_detail"
+                    android:paddingTop="5dp"
+                    android:paddingStart="40dp"
+                    android:paddingEnd="20sp"
+                    android:paddingBottom="10dp"
+                    android:text="Self Collection"
+                    android:textSize="15sp"
+                    android:textColor="@color/white"/>
+            </LinearLayout>
+        </ScrollView>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="right"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/layout_toolbar"
+        android:paddingBottom="5dp">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="left"
+            android:padding="10dp">
+
+
+            <Button
+                android:id="@+id/button_edit"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:textColor="@color/white"
+                android:textSize="28sp"
+                android:background="@drawable/button_edit_round"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="end"
+            android:padding="10dp">
+        <Button
+            android:id="@+id/button_delete"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:textColor="@color/white"
+            android:textSize="28sp"
+            android:background="@drawable/button_delete_round"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</RelativeLayout>

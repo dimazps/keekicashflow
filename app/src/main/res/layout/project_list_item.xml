@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@color/lightblue">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/dummy"
+            android:id="@+id/project_image"
+            android:layout_margin="16dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"/>
+        <TextView
+            android:id="@+id/tv_project_data_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:text="CupCakes Kee-Ki"
+            android:paddingTop="5dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="5dp"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"/>
+
+
+        <TextView
+            android:id="@+id/tv_project_data_quantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/white"
+            android:text="12 pieces"
+            android:textSize="14sp"
+            android:paddingLeft="16dp"
+            android:paddingTop="5dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="5dp"
+            android:layout_toStartOf="@id/project_image"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/tv_project_data_title"/>
+
+        <TextView
+            android:id="@+id/tv_project_data_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/white"
+            android:text="S$36 - Fully Paid"
+            android:textSize="14sp"
+            android:paddingLeft="16dp"
+            android:paddingTop="5dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="5dp"
+            android:layout_toStartOf="@id/project_image"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/tv_project_data_quantity"/>
+
+        <TextView
+            android:id="@+id/tv_project_data_date_collection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/white"
+            android:text="31 Jan 2018 - 8:30 pm"
+            android:textSize="14sp"
+            android:paddingLeft="16dp"
+            android:paddingTop="5dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="5dp"
+            android:layout_toStartOf="@id/project_image"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/tv_project_data_price"/>
+
+        <TextView
+            android:id="@+id/tv_project_data_place"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/white"
+            android:text="Serangoon MRT"
+            android:textSize="14sp"
+            android:paddingLeft="16dp"
+            android:paddingTop="5dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="5dp"
+            android:layout_toStartOf="@id/project_image"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/tv_project_data_date_collection"/>
+
+
+
+    </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>

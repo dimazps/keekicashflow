@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "378091293128",
+    "firebase_url": "https://keeki-cashflow.firebaseio.com",
+    "project_id": "keeki-cashflow",
+    "storage_bucket": "keeki-cashflow.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:378091293128:android:810b11d5678cb2d2",
+        "android_client_info": {
+          "package_name": "com.example.dimas.keekicashflow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "378091293128-2tbiq0vcotdp267m7aoik73ec40trkkf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dimas.keekicashflow",
+            "certificate_hash": "f834358608381a0e988bc37afb107869137f928d"
+          }
+        },
+        {
+          "client_id": "378091293128-6h8gquk0pg9dmndk6omg197c8tuo8rhb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUt7kCCUX9i6VEN--cTdN7E0F-JZFf-gY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "378091293128-6h8gquk0pg9dmndk6omg197c8tuo8rhb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
