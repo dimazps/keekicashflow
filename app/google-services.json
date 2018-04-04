@@ -1,35 +1,33 @@
 {
   "project_info": {
-    "project_number": "378091293128",
-    "firebase_url": "https://keeki-cashflow.firebaseio.com",
-    "project_id": "keeki-cashflow",
-    "storage_bucket": "keeki-cashflow.appspot.com"
+    "project_number": "502470680250",
+    "project_id": "keekicashflowapp"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:378091293128:android:810b11d5678cb2d2",
+        "mobilesdk_app_id": "1:502470680250:android:810b11d5678cb2d2",
         "android_client_info": {
           "package_name": "com.example.dimas.keekicashflow"
         }
       },
       "oauth_client": [
         {
-          "client_id": "378091293128-2tbiq0vcotdp267m7aoik73ec40trkkf.apps.googleusercontent.com",
+          "client_id": "502470680250-smks66vbhs3d17p11truarv1guboqkts.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.example.dimas.keekicashflow",
-            "certificate_hash": "f834358608381a0e988bc37afb107869137f928d"
+            "certificate_hash": "5b9c69fb93587aef4a8919bf88ba2a85adce430b"
           }
         },
         {
-          "client_id": "378091293128-6h8gquk0pg9dmndk6omg197c8tuo8rhb.apps.googleusercontent.com",
+          "client_id": "502470680250-5r7qd0sutq0hnum2svq6g33iajj4k2em.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCUt7kCCUX9i6VEN--cTdN7E0F-JZFf-gY"
+          "current_key": "AIzaSyDAMmOwKUCKJJTP8OyYrXz6RJltyiWmJUE"
         }
       ],
       "services": {
@@ -37,16 +35,11 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 2,
-          "other_platform_oauth_client": [
-            {
-              "client_id": "378091293128-6h8gquk0pg9dmndk6omg197c8tuo8rhb.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "status": 1,
+          "other_platform_oauth_client": []
         },
         "ads_service": {
-          "status": 2
+          "status": 1
         }
       }
     }
